@@ -1,6 +1,7 @@
 # DescarteCerto
 
 🛠 Tecnologias Utilizadas
+
 Frontend: HTML5, CSS3, Tailwind CSS
 
 Backend: Node.js, Express
@@ -12,6 +13,7 @@ Geolocalização: API do Google Maps para mostrar pontos de coleta próximos.
 Outras ferramentas: Figma (para protótipos), GitHub (controle de versão)
 
 👥 Equipe
+
 Nossa equipe é composta por:
 
 Pedro Romão – Desenvolvedor 
