@@ -1,7 +1,7 @@
 # DescarteCerto
 
 🛠 Tecnologias Utilizadas
-Frontend: React, HTML5, CSS3
+Frontend: HTML5, CSS3, Tailwind CSS
 
 Backend: Node.js, Express
 
