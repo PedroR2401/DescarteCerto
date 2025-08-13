@@ -2,21 +2,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> anaaaaaaaaaaa
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <>
+      <Header />
+      <main className="p-4">
+        {/* Conteúdo principal */}
+      </main>
+    </>
   );
 }
 
