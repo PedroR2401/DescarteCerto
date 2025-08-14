@@ -1,5 +1,5 @@
 import './App.css'
-import React from "react";
+
 import Header from "./componentes/MenuSuperior";
 
 function App() {
@@ -9,10 +9,6 @@ function App() {
           <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1 p-6">
-        <h1 className="text-2xl font-bold">Bem-vindo ao Descarte Certo!</h1>
-        {/* Outros componentes aqui */}
-      </main>
     </div>
     </>
   )
