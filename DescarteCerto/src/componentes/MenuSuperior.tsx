@@ -1,12 +1,15 @@
 import logoEnome from "../images/logoEnome.png"; // Coloque sua imagem na pasta assets
 import "./estilizacao/MenuSuperior.css";
+// import { useState } from "react";
 
 function Header() {
+  // const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="Header">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <img src={logoEnome} alt="Descarte Certo" className="h-16 w-auto ml-5" />
+        <img src={logoEnome} alt="Descarte Certo" className="h-16 sm:h-16 md:h-12 w-auto ml-3" />
       </div>
 
       {/* Menu */}
