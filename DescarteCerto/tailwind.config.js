@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         padraoVerdeClaro: "#BAC67E",
-        branco: "#FFFFFF", // aqui você coloca o código hex da cor que quiser
+        branco: "#FFFFFF", 
+        fundoBlocoVerde: "#8CA873"// aqui você coloca o código hex da cor que quiser
       },},
   },
   plugins: [],

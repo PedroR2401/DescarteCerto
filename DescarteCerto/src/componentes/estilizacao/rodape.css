@@ -1,36 +1,71 @@
-/* .Footer {
+.Footer {
+  @apply fixed bottom-0 left-0 w-full;
   background-image: url("../../images/rodapé.png");
-  background-size: cover;   /* cobre toda a área
-  background-position: center; centraliza 
-  background-repeat: no-repeat; /* não repete 
-  color: white; /* deixa o texto visível 
-  
-}
-.Div_VoltarTopo{
-    @apply container mx-auto px-4 pt-2 text-left text-sm
-}
-.a_VoltarTopo{
-@apply text-white hover:underline
-}
-.Titulo{
-@apply text-center font-bold text-xl mt-2 mb-6
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.Principal{
-@apply container mx-auto flex flex-col md:flex-row justify-between px-6
+.div_VoltarTopo {
+  @apply container mx-auto px-2 pt-1 text-left text-sm;
 }
 
-.Div_PaginaSite{
-    "bg-green-200 p-3 rounded-lg
+.a_VoltarTopo {
+  @apply text-white hover:underline;
 }
 
-.h3_PaginaSite{
-    font-semibold mb-2
+.Titulo {
+  @apply text-center font-bold text-lg mt-1 mb-2;
 }
-.ul_PaginaSite{
-    space-y-1
+
+.Principal {
+  @apply container mx-auto flex flex-col md:flex-row justify-between px-1;
 }
-.a_PaginaSite{
-hover:underline
+
+.div_BlocoVerde {
+  @apply bg-fundoBlocoVerde p-2 rounded-[20px];
 }
- */
+
+.h3_PaginaSite {
+  @apply font-semibold mb-1;
+}
+
+.ul_PaginaSite {
+  @apply space-y-1;
+}
+
+.a_PaginaSite {
+  @apply text-white hover:underline;
+}
+
+.div_RedesSociais {
+  @apply flex flex-col justify-end items-center pb-4 mb-2 md:mb-0;
+}
+
+.div_RedesSociais_Filha {
+  @apply flex space-x-2 text-xl mb-1;
+}
+
+.Instagram {
+  @apply text-pink-600 hover:scale-110 transition;
+}
+
+.InstagramIcon{
+  @apply w-10 h-10;
+}
+
+.FaleConosco {
+  @apply bg-gray-200 px-2 py-0.5 rounded-full text-xs shadow hover:bg-gray-300;
+}
+
+.Equipe {
+  @apply bg-green-200 p-2 rounded-lg text-sm;
+}
+
+.h3_Equipe {
+  @apply font-semibold mb-1;
+}
+
+.CreditosFinais {
+  @apply bg-gray-800 bg-opacity-40 text-white text-center text-[10px] py-1 mt-2;
+}
