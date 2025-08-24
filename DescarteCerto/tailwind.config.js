@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        fredoka: ["Fredoka", "sans-serif"],
+      },
       colors: {
         padraoVerdeClaro: "#BAC67E",
         branco: "#FFFFFF", 

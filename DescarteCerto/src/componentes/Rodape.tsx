@@ -41,13 +41,13 @@ function Footer() {
         </div>
 
         {/* Equipe */}
+         <div className="div_BlocoVerde">
         <div className="div_Equipe">
-          <div className="div_BlocoVerde">
           <h3 className="h3_Equipe">Equipe do Descarte Certo</h3>
-          <p>Laura Moreira,</p>
-          <p>Marcius Esquecula,</p>
-          <p>Pedro Romão,</p>
-          <p>Samara Magalhães</p>
+          <p className="p_Equipe">Laura Moreira</p>
+          <p className="p_Equipe">Marcius Esquecula</p>
+          <p className="p_Equipe">Pedro Romão</p>
+          <p className="p_Equipe">Samara Magalhães</p>
           </div>
         </div>
       </div>

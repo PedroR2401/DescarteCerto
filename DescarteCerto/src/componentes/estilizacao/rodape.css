@@ -1,5 +1,5 @@
 .Footer {
-  @apply fixed bottom-0 left-0 w-full;
+  @apply mt-auto w-full bg-[#9fc58e] text-white;
   background-image: url("../../images/rodapé.png");
   background-size: cover;
   background-position: center;
@@ -7,7 +7,7 @@
 }
 
 .div_VoltarTopo {
-  @apply container mx-auto px-2 pt-1 text-left text-sm;
+  @apply font-fredoka font-medium container mx-auto px-2 pt-1 text-left text-sm;
 }
 
 .a_VoltarTopo {
@@ -15,7 +15,7 @@
 }
 
 .Titulo {
-  @apply text-center font-bold text-lg mt-1 mb-2;
+  @apply text-center font-fredoka font-semibold text-lg mt-1 mb-2;
 }
 
 .Principal {
@@ -27,7 +27,7 @@
 }
 
 .h3_PaginaSite {
-  @apply font-semibold mb-1;
+  @apply font-fredoka font-semibold mb-1;
 }
 
 .ul_PaginaSite {
@@ -35,7 +35,7 @@
 }
 
 .a_PaginaSite {
-  @apply text-white hover:underline;
+  @apply text-white font-fredoka font-medium hover:underline;
 }
 
 .div_RedesSociais {
@@ -47,7 +47,7 @@
 }
 
 .Instagram {
-  @apply text-pink-600 hover:scale-110 transition;
+  @apply hover:scale-110 transition;
 }
 
 .InstagramIcon{
@@ -55,15 +55,15 @@
 }
 
 .FaleConosco {
-  @apply bg-gray-200 px-2 py-0.5 rounded-full text-xs shadow hover:bg-gray-300;
-}
-
-.Equipe {
-  @apply bg-green-200 p-2 rounded-lg text-sm;
+  @apply bg-gray-200 font-fredoka font-medium px-2 py-0.5 rounded-[20px] text-xs shadow hover:bg-gray-300;
 }
 
 .h3_Equipe {
-  @apply font-semibold mb-1;
+  @apply font-fredoka font-semibold mb-5;
+}
+
+.p_Equipe{
+@apply font-fredoka font-medium
 }
 
 .CreditosFinais {
