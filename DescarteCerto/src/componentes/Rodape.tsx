@@ -4,6 +4,7 @@ import "./estilizacao/rodape.css";
 function Footer() {
   return (
     <footer className="Footer">
+      <div className="Geral">
       {/* Voltar ao topo */}
       <div className="div_VoltarTopo">
         <a href="#topo" className="a_VoltarTopo">
@@ -55,6 +56,7 @@ function Footer() {
       {/* Créditos finais */}
       <div className="CreditosFinais">
         FATEC - Faculdade de Tecnologia do Estado de São Paulo - Projeto Integrador II – Curso de ADS AMS – Prof. Rita
+      </div>
       </div>
     </footer>
   );

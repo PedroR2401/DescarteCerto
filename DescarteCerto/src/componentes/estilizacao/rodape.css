@@ -4,6 +4,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+   overflow-x: hidden;
+}
+
+.Geral{
+  @apply max-w-7xl mx-auto px-4
 }
 
 .div_VoltarTopo {
@@ -11,7 +16,7 @@
 }
 
 .a_VoltarTopo {
-  @apply text-white hover:underline;
+  @apply text-white hover:underline relative flex justify-items-start items-start;
 }
 
 .Titulo {
@@ -19,11 +24,11 @@
 }
 
 .Principal {
-  @apply container mx-auto flex flex-col md:flex-row justify-between px-1;
+  @apply flex flex-col md:flex-row justify-between gap-6 w-full;;
 }
 
 .div_BlocoVerde {
-  @apply bg-fundoBlocoVerde p-2 rounded-[20px];
+  @apply  bg-fundoBlocoVerde p-3 rounded-[20px] flex-none min-w-[200px];
 }
 
 .h3_PaginaSite {
@@ -39,9 +44,8 @@
 }
 
 .div_RedesSociais {
-  @apply flex flex-col justify-end items-center pb-4 mb-2 md:mb-0;
+  @apply flex flex-col justify-center items-center pb-4 mb-2 md:mb-0 flex-1 min-w-[200px]; 
 }
-
 .div_RedesSociais_Filha {
   @apply flex space-x-2 text-xl mb-1;
 }
@@ -67,5 +71,5 @@
 }
 
 .CreditosFinais {
-  @apply bg-gray-800 bg-opacity-40 text-white text-center text-[10px] py-1 mt-2;
+  @apply w-full bg-gray-800 bg-opacity-40 text-white text-center text-[10px] py-1 mt-2;
 }
