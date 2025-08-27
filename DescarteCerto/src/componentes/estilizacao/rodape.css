@@ -28,11 +28,11 @@
 }
 
 .div_BlocoVerde {
-  @apply  bg-fundoBlocoVerde p-3 rounded-[20px] flex-none min-w-[200px];
+  @apply  bg-fundoBlocoVerde p-5 rounded-[20px] flex-none min-w-[230px] m-10;
 }
 
 .h3_PaginaSite {
-  @apply font-fredoka font-semibold mb-1;
+  @apply font-fredoka font-semibold mb-1 text-center ;
 }
 
 .ul_PaginaSite {
@@ -40,12 +40,13 @@
 }
 
 .a_PaginaSite {
-  @apply text-white font-fredoka font-medium hover:underline;
+  @apply text-white font-fredoka font-medium hover:underline text-[15px];
 }
 
 .div_RedesSociais {
   @apply flex flex-col justify-center items-center pb-4 mb-2 md:mb-0 flex-1 min-w-[200px]; 
 }
+
 .div_RedesSociais_Filha {
   @apply flex space-x-2 text-xl mb-1;
 }
@@ -55,21 +56,25 @@
 }
 
 .InstagramIcon{
-  @apply w-10 h-10;
+  @apply w-14 h-14 ;
+}
+
+.EmailIcon{
+    @apply w-6 h-6 m-2;
 }
 
 .FaleConosco {
-  @apply bg-gray-200 font-fredoka font-medium px-2 py-0.5 rounded-[20px] text-xs shadow hover:bg-gray-300;
+  @apply bg-gray-200 flex justify-center items-center font-fredoka font-medium px-4 py-1 rounded-[20px] text-sm shadow hover:bg-gray-300;
 }
 
 .h3_Equipe {
-  @apply font-fredoka font-semibold mb-5;
+  @apply font-fredoka font-semibold mb-5 text-center;
 }
 
 .p_Equipe{
-@apply font-fredoka font-medium
+@apply font-fredoka font-medium text-[15px];
 }
 
 .CreditosFinais {
-  @apply w-full bg-gray-800 bg-opacity-40 text-white text-center text-[10px] py-1 mt-2;
+  @apply w-full bg-gray-800 bg-opacity-40 text-white text-center text-[15px] py-3 mt-2;
 }

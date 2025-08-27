@@ -1,16 +1,18 @@
 import instagramIcon from "../images/instagramIcon.png";
+import emailIcon from "../images/emailPNG.png";
 import "./estilizacao/rodape.css";
 
 function Footer() {
   return (
     <footer className="Footer">
-      <div className="Geral">
-      {/* Voltar ao topo */}
+       {/* Voltar ao topo */}
       <div className="div_VoltarTopo">
         <a href="#topo" className="a_VoltarTopo">
           Voltar ao topo
         </a>
       </div>
+      <div className="Geral">
+     
 
       {/* Título */}
       <h2 className="Titulo">
@@ -37,27 +39,29 @@ function Footer() {
             <a href="#" className="Instagram"><img src={instagramIcon} className="InstagramIcon"/></a>
           </div>
           <button className="FaleConosco">
-            Converse com a gente
+           <img className="EmailIcon" src={emailIcon} />Converse com a gente
           </button>
         </div>
 
         {/* Equipe */}
          <div className="div_BlocoVerde">
         <div className="div_Equipe">
+          <ul className="ul_PaginaSite">
           <h3 className="h3_Equipe">Equipe do Descarte Certo</h3>
           <p className="p_Equipe">Laura Moreira</p>
           <p className="p_Equipe">Marcius Esquecula</p>
           <p className="p_Equipe">Pedro Romão</p>
           <p className="p_Equipe">Samara Magalhães</p>
+          </ul>
           </div>
         </div>
       </div>
-
+</div>
       {/* Créditos finais */}
       <div className="CreditosFinais">
         FATEC - Faculdade de Tecnologia do Estado de São Paulo - Projeto Integrador II – Curso de ADS AMS – Prof. Rita
       </div>
-      </div>
+     
     </footer>
   );
 }
