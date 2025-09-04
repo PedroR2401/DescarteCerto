@@ -16,11 +16,11 @@
 }
 
 .a_VoltarTopo {
-  @apply text-white hover:underline relative flex justify-items-start items-start;
+  @apply text-white hover:underline relative flex justify-items-start items-start text-xl;
 }
 
 .Titulo {
-  @apply text-center font-fredoka font-semibold text-lg mt-1 mb-2;
+  @apply text-padraoVerdeEscuro text-center font-fredoka font-semibold text-4xl mt-1 mb-2;
 }
 
 .Principal {
@@ -32,15 +32,15 @@
 }
 
 .h3_PaginaSite {
-  @apply font-fredoka font-semibold mb-1 text-center ;
+  @apply text-padraoVerdeEscuro font-fredoka font-semibold mb-1 text-center text-[20px];
 }
 
 .ul_PaginaSite {
-  @apply space-y-1;
+  @apply space-y-1 text-left;
 }
 
 .a_PaginaSite {
-  @apply text-white font-fredoka font-medium hover:underline text-[15px];
+  @apply text-white font-fredoka font-medium hover:underline text-[18px];
 }
 
 .div_RedesSociais {
@@ -60,21 +60,21 @@
 }
 
 .EmailIcon{
-    @apply w-6 h-6 m-2;
+    @apply w-9 h-9 m-1;
 }
 
 .FaleConosco {
-  @apply bg-gray-200 flex justify-center items-center font-fredoka font-medium px-4 py-1 rounded-[20px] text-sm shadow hover:bg-gray-300;
+  @apply bg-fundoBlocoVerde flex justify-center items-center font-fredoka font-medium px-4 py-0.5 rounded-[20px] text-sm shadow hover:bg-gray-300;
 }
 
 .h3_Equipe {
-  @apply font-fredoka font-semibold mb-5 text-center;
+  @apply text-padraoVerdeEscuro font-fredoka font-semibold mb-5 text-center text-[19px];
 }
 
 .p_Equipe{
-@apply font-fredoka font-medium text-[15px];
+@apply font-fredoka font-medium text-[19px] text-left;
 }
 
 .CreditosFinais {
-  @apply w-full bg-gray-800 bg-opacity-40 text-white text-center text-[15px] py-3 mt-2;
+  @apply w-full bg-fundoBlocoVerde text-white text-center text-[15px] py-3 mt-2;
 }

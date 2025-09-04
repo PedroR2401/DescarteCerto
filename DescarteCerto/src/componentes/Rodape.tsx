@@ -1,5 +1,5 @@
 import instagramIcon from "../images/instagramIcon.png";
-import emailIcon from "../images/emailPNG.png";
+import emailIcon from "../images/envelope.png";
 import "./estilizacao/rodape.css";
 
 function Footer() {
@@ -23,7 +23,7 @@ function Footer() {
       <div className="Principal">
         {/* Páginas do site */}
         <div className="div_BlocoVerde">
-          <h3 className="h3_PaginaSite">Equipe do Descarte Certo</h3>
+          <h3 className="h3_PaginaSite">Páginas do Site</h3>
           <ul className="ul_PaginaSite">
             <li><a href="#" className="a_PaginaSite">Home</a></li>
             <li><a href="#" className="a_PaginaSite">Onde Descartar</a></li>
@@ -46,11 +46,11 @@ function Footer() {
         {/* Equipe */}
          <div className="div_BlocoVerde">
         <div className="div_Equipe">
+        <h3 className="h3_Equipe">Equipe Descarte Certo</h3>
           <ul className="ul_PaginaSite">
-          <h3 className="h3_Equipe">Equipe do Descarte Certo</h3>
           <p className="p_Equipe">Laura Moreira</p>
           <p className="p_Equipe">Marcius Esquecula</p>
-          <p className="p_Equipe">Pedro Romão</p>
+          <p className="p_Equipe">Pedro H. Romão</p>
           <p className="p_Equipe">Samara Magalhães</p>
           </ul>
           </div>

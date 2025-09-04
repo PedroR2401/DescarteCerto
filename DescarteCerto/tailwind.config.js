@@ -10,7 +10,8 @@ module.exports = {
       },
       colors: {
         padraoVerdeClaro: "#BAC67E",
-        branco: "#FFFFFF", 
+        branco: "#FFFFFF",
+        padraoVerdeEscuro: '#364025',
         fundoBlocoVerde: "#8CA873"// aqui você coloca o código hex da cor que quiser
       },},
   },
