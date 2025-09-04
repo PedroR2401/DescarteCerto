@@ -56,7 +56,23 @@
 }
 
 .InstagramIcon{
-  @apply w-14 h-14 ;
+  @apply w-16 h-16;
+}
+
+.Facebook{
+  @apply hover:scale-110 transition;
+}
+
+.facebookIcon{
+  @apply w-2 h-2 ;
+}
+
+.X {
+  @apply hover:scale-110 transition;
+}
+
+.xIcon{
+  @apply w-8 h-8 ;
 }
 
 .EmailIcon{
