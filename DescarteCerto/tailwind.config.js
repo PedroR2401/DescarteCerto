@@ -9,7 +9,7 @@ module.exports = {
         fredoka: ["Fredoka", "sans-serif"],
       },
       colors: {
-        padraoVerdeClaro: "#BAC67E",
+        padraoVerdeClaro: "#A9D091",
         branco: "#FFFFFF",
         padraoVerdeEscuro: '#364025',
         fundoBlocoVerde: "#8CA873"// aqui você coloca o código hex da cor que quiser

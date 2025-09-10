@@ -37,10 +37,16 @@ function Footer() {
         {/* Redes sociais */}
         <div className="div_RedesSociais">
           <div className="div_RedesSociais_Filha">
-            <a href="#" className="Facebook"><img src={facebookIcon} className="FacebookIcon"/></a>
-            <a href="#" className="Instagram"><img src={instagramIcon} className="InstagramIcon"/></a>
-            <a href="#" className="X"><img src={xIcon} className="XIcon"/></a>
-          </div>
+  <a href="#" className="Facebook">
+    <img src={facebookIcon} className="FacebookIcon" />
+  </a>
+  <a href="#" className="Instagram">
+    <img src={instagramIcon} className="InstagramIcon" />
+  </a>
+  <a href="#" className="X">
+    <img src={xIcon} className="XIcon" />
+  </a>
+</div>
           <button className="FaleConosco">
            <img className="EmailIcon" src={emailIcon} />Converse com a gente
           </button>
