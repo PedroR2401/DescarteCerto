@@ -9,7 +9,7 @@ function Header() {
     <header className="Header">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <img src={logoEnome} alt="Descarte Certo" className="h-16 sm:h-16 md:h-12 w-auto ml-3" />
+        <img src={logoEnome} alt="Descarte Certo" className="h-24 sm:h-16 md:h-12 w-auto ml-3" />
       </div>
 
       {/* Menu */}

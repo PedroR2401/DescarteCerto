@@ -27,24 +27,24 @@ export default function Home() {
           ficará fácil para os cidadãos encontrarem os locais corretos para o descarte responsável 
           de resíduos e incentivamos a doação de itens que ainda podem ser úteis para outras pessoas. 
             </p>
-
-            <p className="PrimeiroDescricao">
-           O que para você não tem mais serventia, pode transformar a vida de alguém. Não jogue fora, doe!
-            </p>
-
-            <p className="PrimeiroDescricao">
-           Junte-se a nós nessa missão e faça parte da mudança. Vamos construir juntos uma comunidade mais consciente, sustentável e solidária!
-            </p>
-          
-        </div>
-
-        {/* Logo na lateral */}
-        <div className="PrimeiroLogo">
+                    {/* Logo na lateral */}
+          <div className="PrimeiroLogo">
           <img 
             src={LogoSite}
             alt="Logo Descarte Certo" 
             className="PrimeiroLogoImg"
           />
+        </div>            <br></br>
+
+            <p className="PrimeiroDescricao">
+           O que para você não tem mais serventia, pode transformar a vida de alguém. Não jogue fora, doe!
+            </p>            <br></br>
+
+            <p className="PrimeiroDescricao">
+           Junte-se a nós nessa missão e faça parte da mudança. 
+           Vamos construir juntos uma comunidade mais consciente, 
+           sustentável e solidária!
+            </p>
         </div>
         </div>
       </section>
