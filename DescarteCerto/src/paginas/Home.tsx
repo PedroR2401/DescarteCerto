@@ -1,5 +1,6 @@
 import "./css/Home.css";
 import LogoSite from "../images/LogoSite.png";
+import MeninaBike from "../images/MeninaBike.png";
 
 
 
@@ -70,7 +71,7 @@ export default function Home() {
       <section className="TextoImagem">
         <div className="TextoImagemImg">
           <img 
-            src="/reciclagem.png" 
+            src={MeninaBike}
             alt="Pessoa reciclando" 
             className="TextoImagemFoto"
           />
