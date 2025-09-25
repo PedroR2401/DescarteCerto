@@ -35,11 +35,11 @@ export default function Home() {
             alt="Logo Descarte Certo" 
             className="PrimeiroLogoImg"
           />
-        </div>            <br></br>
-
+                  </div>
+                  
             <p className="PrimeiroDescricao">
            O que para você não tem mais serventia, pode transformar a vida de alguém. Não jogue fora, doe!
-            </p>            <br></br>
+            </p>
 
             <p className="PrimeiroDescricao">
            Junte-se a nós nessa missão e faça parte da mudança. 
