@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        padraoVerdeClaro: "#BAC67E",
+         padraoVerdeClaro: "#A9D091",
         branco: "#FFFFFF", // aqui você coloca o código hex da cor que quiser
       },},
   },
