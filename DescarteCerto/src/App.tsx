@@ -6,6 +6,10 @@ import Footer from "./componentes/Rodape"
 
 // páginas
 import Home from "./paginas/Home";
+import OndeDescartar from "./paginas/OndeDescartar";
+// import Doacoes from "./paginas/OndeDescartar";
+// import Dicas from "./paginas/OndeDescartar";
+// import Aplicativo from "./paginas/OndeDescartar";
 
 function App() {
 
@@ -18,6 +22,10 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/OndeDescartar" element ={<OndeDescartar />} />
+            {/* <Route path="/Doacoes" element ={<Doacao />} />
+            <Route path="/Dicas" element ={<Dicas />} />
+            <Route path="/Aplicativo" element ={<Aplicativo />} /> */}
           </Routes>
         </main>
 

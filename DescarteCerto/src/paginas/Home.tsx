@@ -12,7 +12,7 @@ import Nao from "../images/Nao.png"
 export default function Home() {
   return (
     <div className="PaginaPrincipal">
-
+      
       {/* Primeiro Section */}
       <section className="PrimeiroSection">
         <div className="PrimeiroBox">
