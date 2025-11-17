@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cardContainer {
+    @apply bg-white rounded-xl p-5 mb-5 shadow;
+  }
+
+  .cardTitle {
+    @apply text-lg font-semibold text-gray-800 mb-1;
+  }
+
+  .cardText {
+    @apply text-gray-600 leading-relaxed;
+  }
+}

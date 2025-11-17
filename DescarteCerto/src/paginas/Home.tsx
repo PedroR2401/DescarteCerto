@@ -1,9 +1,13 @@
 import "./css/Home.css";
 import LogoSite from "../images/LogoSite.png";
 import MeninaBike from "../images/MeninaBike.png";
-
-
-
+import MaisEmpregos from "../images/MaisEmpregos.png";
+import ReduzirLixo from "../images/ReduzirLixo.jpg";
+import Preservar from "../images/Preservar.jpg";
+import Lixeiras from "../images/Lixeiras.jpg";
+import FolhaEsquerda from "../images/FolhaEsquerda.png";
+import FolhaDireita from "../images/FolhaDireita.png";
+import Nao from "../images/Nao.png"
 
 export default function Home() {
   return (
@@ -98,7 +102,7 @@ export default function Home() {
         <h2 className="BeneficiosTitulo">Benefícios do Descarte Correto</h2>
         <div className="BeneficiosGrid">
           <div className="BeneficioItem">
-            <img src="/empregos.png" alt="Mais empregos" className="BeneficioIcone" />
+            <img src={MaisEmpregos} alt="Mais empregos" className="BeneficioIcone" />
             <h3 className="BeneficioTitulo">Mais empregos</h3>
             <p className="BeneficioTexto">A reciclagem e a reutilização 
               incentivam a economia
@@ -108,13 +112,13 @@ export default function Home() {
           </div>
 
           <div className="BeneficioItem">
-            <img src="/reduzir.png" alt="Reduzir lixo" className="BeneficioIcone" />
+            <img src={ReduzirLixo} alt="Reduzir lixo" className="BeneficioIcone" />
             <h3 className="BeneficioTitulo">Reduzir lixo</h3>
             <p className="BeneficioTexto">Separar corretamente os resíduos ajuda a reduzir a quantidade de lixo nos aterros sanitários.</p>
           </div>
 
           <div className="BeneficioItem">
-            <img src="/preservar.png" alt="Preservar" className="BeneficioIcone" />
+            <img src={Preservar} alt="Preservar" className="BeneficioIcone" />
             <h3 className="BeneficioTitulo">Preservar</h3>
             <p className="BeneficioTexto">O descarte correto diminui 
               resíduos e poluição. Reciclar 
@@ -131,6 +135,22 @@ export default function Home() {
 
       {/* Diferença entre tipos de lixo */}
       <section id="tipos-lixo" className="TiposLixo">
+
+  <div className="max-w-4xl text-center"></div>
+  {/* Folha esquerda */}
+  <img 
+    src={FolhaEsquerda} 
+    alt="Folha decorativa" 
+    className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 w-24 opacity-80"
+  />
+
+  {/* Folha direita */}
+  <img 
+    src={FolhaDireita} 
+    alt="Folha decorativa" 
+    className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-24 opacity-80"
+  />
+
         <h2 className="TiposLixoTitulo">Diferença entre lixo orgânico, reciclável e rejeito</h2>
         <p className="TiposLixoTexto">
           Lixo orgânico é composto por restos de alimentos, folhas, cascas de frutas e outros 
@@ -157,7 +177,7 @@ export default function Home() {
           </p>
 
         <div className="TiposLixoImg">
-          <img src="/lixeiras.png" alt="Tipos de lixo" className="TiposLixoFoto" />
+          <img src={Lixeiras} alt="Tipos de lixo" className="TiposLixoFoto" />
         </div>
       </section>
 
@@ -166,7 +186,7 @@ export default function Home() {
         <h2 className="NaoColetaTitulo">O que NÃO vai na coleta seletiva</h2>
         <div className="NaoColetaGrid">
           <div className="NaoColetaImg">
-            <img src="/nao.png" alt="Não vai na coleta seletiva" className="NaoColetaFoto" />
+              <img src={Nao} alt="Não vai na coleta seletiva" className="NaoColetaFoto" />
           </div>
           <div className="NaoColetaTexto">
             <p>Nem tudo pode ser reciclado na coleta seletiva. 
