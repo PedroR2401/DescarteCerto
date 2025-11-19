@@ -1,0 +1,56 @@
+/* CONTAINER GERAL */
+.appinfo-container {
+  @apply flex flex-col items-center bg-white px-6 md:px-16 lg:px-32 py-10 space-y-16;
+}
+
+/* BLOCO SUPERIOR */
+.appinfo-topo {
+  @apply w-full flex flex-col md:flex-row justify-between items-center gap-10;
+}
+
+.appinfo-texto {
+  @apply max-w-xl text-left space-y-4;
+}
+
+.appinfo-titulo {
+  @apply text-2xl font-bold text-gray-900 mb-2;
+}
+
+.appinfo-paragrafo {
+  @apply text-gray-700 text-lg leading-relaxed;
+}
+
+.appinfo-img {
+  @apply w-64 md:w-72 lg:w-80 drop-shadow-xl;
+}
+
+/* BLOCO QR CODE */
+.appinfo-qrcode-container {
+  @apply w-full flex justify-center items-start gap-6;
+}
+
+/* ÍCONES LATERAIS */
+.appinfo-icones {
+  @apply flex flex-col gap-4 items-center;
+}
+
+.appinfo-folha {
+  @apply w-10 opacity-80;
+}
+
+/* CENTRAL */
+.appinfo-qrcode-centro {
+  @apply flex flex-col items-center gap-4;
+}
+
+.appinfo-subtitulo {
+  @apply text-xl font-bold text-gray-900;
+}
+
+.appinfo-qrcode {
+  @apply w-56;
+}
+
+.appinfo-googleplay {
+  @apply w-40 mt-2;
+}

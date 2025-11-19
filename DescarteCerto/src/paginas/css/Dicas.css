@@ -1,0 +1,24 @@
+/* CONTAINER GERAL */
+.sust-container {
+  @apply flex flex-col items-center bg-white px-6 md:px-16 lg:px-40 py-10 space-y-6;
+}
+
+/* TÍTULO PRINCIPAL */
+.sust-titulo {
+  @apply text-2xl md:text-3xl font-bold text-gray-900 mb-4 text-center;
+}
+
+/* SUBTÍTULOS */
+.sust-subtitulo {
+  @apply text-xl md:text-2xl font-bold text-green-700 mt-10 mb-4 text-center;
+}
+
+/* PARÁGRAFOS */
+.sust-paragrafo {
+  @apply text-lg text-gray-700 leading-relaxed text-justify max-w-4xl;
+}
+
+/* IMAGENS GRANDES */
+.sust-img {
+  @apply w-full max-w-4xl rounded-xl shadow-md;
+}
