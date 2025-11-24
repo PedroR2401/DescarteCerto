@@ -1,4 +1,6 @@
 import "./css/Aplicativo.css";
+import qrcode from "../images/qrcode.png";
+import googleplay from "../images/googleplay.png";
 
 export default function AppInfo() {
   return (
@@ -44,38 +46,22 @@ export default function AppInfo() {
 
       {/* BLOCO QR CODE */}
       <div className="appinfo-qrcode-container">
-
-        {/* ÍCONES ESQUERDA */}
-        <div className="appinfo-icones">
-          <img src="/assets/icones/folha.png" className="appinfo-folha" />
-          <img src="/assets/icones/folha.png" className="appinfo-folha" />
-          <img src="/assets/icones/folha.png" className="appinfo-folha" />
-        </div>
-
         {/* CENTRO */}
         <div className="appinfo-qrcode-centro">
           <h3 className="appinfo-subtitulo">Já disponível para Download</h3>
 
           <img 
-            src="/assets/qrcode.png" 
+            src={qrcode} 
             alt="QR Code" 
             className="appinfo-qrcode"
           />
 
           <img
-            src="/assets/googleplay.png"
+            src={googleplay}
             alt="Google Play"
             className="appinfo-googleplay"
           />
         </div>
-
-        {/* ÍCONES DIREITA */}
-        <div className="appinfo-icones">
-          <img src="/assets/icones/folha.png" className="appinfo-folha" />
-          <img src="/assets/icones/folha.png" className="appinfo-folha" />
-          <img src="/assets/icones/folha.png" className="appinfo-folha" />
-        </div>
-
       </div>
 
     </section>

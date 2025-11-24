@@ -24,12 +24,16 @@ export default function Dicas() {
 
       {/* BLOCO 1 */}
       <h3 className="sust-subtitulo">Faça sabão com óleo de cozinha usado</h3>
-
-      <img
-        src="/assets/sustentabilidade/sabao.jpg"
-        alt="Como fazer sabão com óleo de cozinha"
-        className="sust-img"
-      />
+ <iframe
+    className="rounded-xl shadow-lg"
+    width="750"
+    height="420"
+    src="https://www.youtube.com/embed/FsV4gAfIPdM"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
 
       <p className="sust-paragrafo">
         Vamos aprender com a Bee da Casa de Manual do Mundo uma forma de reciclar
@@ -39,12 +43,16 @@ export default function Dicas() {
 
       {/* BLOCO 2 */}
       <h3 className="sust-subtitulo">Como fazer tecido com sacola plástica</h3>
-
-      <img
-        src="/assets/sustentabilidade/sacola.jpg"
-        alt="Como fazer tecido com sacola plástica"
-        className="sust-img"
-      />
+ <iframe
+    className="rounded-xl shadow-lg"
+    width="750"
+    height="420"
+    src="https://www.youtube.com/embed/fACgvPqhKWw"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
 
       <p className="sust-paragrafo">
         Podemos reciclar sacolas plásticas de supermercado assim como o plástico do

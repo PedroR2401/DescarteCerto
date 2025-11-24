@@ -5,19 +5,19 @@
 
 /* BLOCO SUPERIOR */
 .appinfo-topo {
-  @apply w-full flex flex-col md:flex-row justify-between items-center gap-10;
+  @apply w-full flex flex-col md:flex-row justify-between items-center mb-20;
 }
 
 .appinfo-texto {
-  @apply max-w-xl text-left space-y-4;
+  @apply max-w-xl text-black text-left space-y-4;
 }
 
 .appinfo-titulo {
-  @apply text-2xl font-bold text-gray-900 mb-2;
+  @apply text-3xl font-bold text-padraoVerdeEscuro mb-2;
 }
 
 .appinfo-paragrafo {
-  @apply text-gray-700 text-lg leading-relaxed;
+  @apply text-black text-xl leading-relaxed;
 }
 
 .appinfo-img {
@@ -29,28 +29,19 @@
   @apply w-full flex justify-center items-start gap-6;
 }
 
-/* ÍCONES LATERAIS */
-.appinfo-icones {
-  @apply flex flex-col gap-4 items-center;
-}
-
-.appinfo-folha {
-  @apply w-10 opacity-80;
-}
-
 /* CENTRAL */
 .appinfo-qrcode-centro {
   @apply flex flex-col items-center gap-4;
 }
 
 .appinfo-subtitulo {
-  @apply text-xl font-bold text-gray-900;
+  @apply text-4xl font-bold text-padraoVerdeEscuro;
 }
 
 .appinfo-qrcode {
-  @apply w-56;
+  @apply w-80;
 }
 
 .appinfo-googleplay {
-  @apply w-40 mt-2;
+  @apply w-60 mt-2;
 }
