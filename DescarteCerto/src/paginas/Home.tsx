@@ -5,8 +5,6 @@ import MaisEmpregos from "../images/MaisEmpregos.png";
 import ReduzirLixo from "../images/ReduzirLixo.jpg";
 import Preservar from "../images/Preservar.jpg";
 import Lixeiras from "../images/Lixeiras.jpg";
-import FolhaEsquerda from "../images/FolhaEsquerda.png";
-import FolhaDireita from "../images/FolhaDireita.png";
 import Nao from "../images/Nao.png"
 
 export default function Home() {
@@ -101,6 +99,7 @@ export default function Home() {
       <section id="beneficios-descarte" className="Beneficios">
         <h2 className="BeneficiosTitulo">Benefícios do Descarte Correto</h2>
         <div className="BeneficiosGrid">
+
           <div className="BeneficioItem">
             <img src={MaisEmpregos} alt="Mais empregos" className="BeneficioIcone" />
             <h3 className="BeneficioTitulo">Mais empregos</h3>
@@ -135,22 +134,7 @@ export default function Home() {
 
       {/* Diferença entre tipos de lixo */}
       <section id="tipos-lixo" className="TiposLixo">
-
-  <div className="max-w-4xl text-center"></div>
-  {/* Folha esquerda */}
-  <img 
-    src={FolhaEsquerda} 
-    alt="Folha decorativa" 
-    className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 w-24 opacity-80"
-  />
-
-  {/* Folha direita */}
-  <img 
-    src={FolhaDireita} 
-    alt="Folha decorativa" 
-    className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-24 opacity-80"
-  />
-
+ <div className="TextoArea">
         <h2 className="TiposLixoTitulo">Diferença entre lixo orgânico, reciclável e rejeito</h2>
         <p className="TiposLixoTexto">
           Lixo orgânico é composto por restos de alimentos, folhas, cascas de frutas e outros 
@@ -175,11 +159,12 @@ export default function Home() {
           ambiental e contribuir para um mundo mais sustentável e solidário. Recicláveis 
           precisam estar limpos e secos para não contaminar outros materiais.
           </p>
+          </div>
+      </section>
 
         <div className="TiposLixoImg">
           <img src={Lixeiras} alt="Tipos de lixo" className="TiposLixoFoto" />
         </div>
-      </section>
 
       {/* O que NÃO vai na coleta seletiva */}
       <section id="nao-coleta" className="NaoColeta">
@@ -198,18 +183,17 @@ export default function Home() {
               Faça sua parte!
             </p>
 
-            <div className="NaoColetaTexto">
-            <p><strong className="Negrito">Lixo orgânico</strong> pode virar adubo por meio da compostagem.<br></br>
-              <strong className="Negrito">Materiais recicláveis</strong> como papel, plástico, vidro e 
+            <p>Lixo orgânico pode virar adubo por meio da compostagem.
+              Materiais recicláveis como papel, plástico, vidro e 
               metal devem ir para a coleta seletiva e podem ser 
               transformados em novos produtos. <br></br>
-              <strong className="Negrito">Rejeitos</strong>, como papel higiênico e adesivos, vão para 
+              Rejeitos, como papel higiênico e adesivos, vão para 
               aterros sanitários, pois não podem ser reaproveitados
             </p>
 
               </div>
         </div>
-        </div>
+ 
       </section>
 
       {/* Descarte Consciente */}
