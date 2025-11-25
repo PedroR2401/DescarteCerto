@@ -6,7 +6,11 @@ import ImagemNao from "../images/nao2.png"
 import ImagemEconomiaCircular from "../images/economia circular.png";
 import qrcode from "../images/qrcode.png";
 import googleplay from "../images/googleplay.png";
-
+import domesticos from "../images/domesticos.jpg";
+import moveis from "../images/moveis.jpg";
+import roupas from "../images/roupas.png";
+import alimentos from "../images/alimetos.jpg";
+import eletronicos from "../images/eletronicos.jpg"
 
 export default function Doacoes() {
   return (
@@ -95,35 +99,35 @@ export default function Doacoes() {
   />
 
   <Card
-    imagem={ItensInfantis}
+    imagem={domesticos}
     titulo="Utensílios domésticos"
     texto="Garanta que estejam limpos e em bom estado. Embale objetos frágeis e agrupe semelhantes."
     corFundo="bg-[#CFBB9A]"
   />
 
   <Card
-    imagem={ItensInfantis}
+    imagem={moveis}
     titulo="Móveis"
     texto="Verifique se estão em boas condições. Limpe, organize e, se necessário, desmonte para o transporte."
     corFundo="bg-[#A9D091]"
   />
 
   <Card
-    imagem={ItensInfantis}
+    imagem={roupas}
     titulo="Roupas e calçados"
     texto="Doe apenas peças limpas e organizadas. Separe por categoria para facilitar a distribuição."
     corFundo="bg-[#CFBB9A]"
   />
 
   <Card
-    imagem={ItensInfantis}
+    imagem={alimentos}
     titulo="Alimentos não perecíveis"
     texto="Prefira alimentos dentro do prazo e embalagens fechadas."
     corFundo="bg-[#A9D091]"
   />
 
   <Card
-    imagem={ItensInfantis}
+    imagem={eletronicos}
     titulo="Eletrônicos"
     texto="Doe apenas os que funcionam ou podem ser consertados. Apague dados pessoais antes de entregar."
     corFundo="bg-[#CFBB9A]"
