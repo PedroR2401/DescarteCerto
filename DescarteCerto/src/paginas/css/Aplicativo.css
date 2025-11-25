@@ -21,7 +21,7 @@
 }
 
 .appinfo-img {
-  @apply w-64 md:w-72 lg:w-80 drop-shadow-xl;
+  @apply w-64 md:w-72 lg:w-96 drop-shadow-xl;
 }
 
 /* BLOCO QR CODE */

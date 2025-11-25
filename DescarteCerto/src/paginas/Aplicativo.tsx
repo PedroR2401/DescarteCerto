@@ -1,6 +1,7 @@
 import "./css/Aplicativo.css";
 import qrcode from "../images/qrcode.png";
 import googleplay from "../images/googleplay.png";
+import FotoCel from "../images/celular.png";
 
 export default function AppInfo() {
   return (
@@ -38,7 +39,7 @@ export default function AppInfo() {
 
         {/* IMAGEM DO APP */}
         <img
-          src="/assets/app/app-mockup.png"
+          src={FotoCel}
           alt="Aplicativo Descarte Certo"
           className="appinfo-img"
         />
