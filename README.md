@@ -4,11 +4,7 @@
 
 Frontend: HTML5, CSS3, Tailwind CSS
 
-Backend: Node.js, Express
-
-Banco de Dados: MongoDB
-
-Geolocalização: API do Google Maps para mostrar pontos de coleta próximos.
+Backend: TypeScript, React
 
 Outras ferramentas: Figma (para protótipos), GitHub (controle de versão)
 
