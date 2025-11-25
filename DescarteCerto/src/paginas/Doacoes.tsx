@@ -3,6 +3,11 @@ import ImagemDoacoes from "../images/donation traduzido.png";
 import Atencao from "../images/atencao.png";
 import ItensInfantis from "../images/itens infatis.jpg"
 import ImagemNao from "../images/nao2.png"
+import ImagemEconomiaCircular from "../images/economia circular.png";
+import qrcode from "../images/qrcode.png";
+import googleplay from "../images/googleplay.png";
+
+
 export default function Doacoes() {
   return (
     <section className="doacoes-container">
@@ -75,7 +80,12 @@ export default function Doacoes() {
   </div>
 
 </div>
+      <h2 className="doacoes-card-titulo">
+        O que pode ser doado?
+      </h2>
+
     <div className="doacoes-grid">
+
 
   <Card
     imagem={ItensInfantis}
@@ -154,16 +164,82 @@ export default function Doacoes() {
 
       </div>
 
-      <h2 className="doacoes-subtitulo">Doe em família</h2>
-      <p className="doacoes-paragrafo">
-        Doar em família é uma ótima maneira de ensinar solidariedade.
+{/* Seção "Doe em Família" */}
+<div className="max-w-7xl mx-auto mt-10 flex flex-col space-y-8 items-center">
+
+  {/* Título - Já está centralizado */}
+  <h2 className="text-2xl md:text-3xl font-bold text-padraoVerdeEscuro text-center mb-5">
+    Doe em família
+  </h2>
+
+  {/* Texto - Adicionado mx-auto para centralizar o bloco de texto */}
+  <p className="text-black md:text-2xl leading-relaxed text-justify max-w-7xl mx-auto">
+    Doar em família é uma ótima maneira de fortalecer laços e incentivar atitudes solidárias.
+    Explique a importância da doação para que todos compreendam o impacto positivo desse gesto.
+    Organizar um momento para selecionar itens juntos pode tornar a experiência mais envolvente,
+    especialmente para as crianças, que aprendem sobre generosidade de forma prática. Contar histórias
+    de quem já recebeu doações também pode motivar e mostrar que pequenas ações fazem a diferença.
+  </p>
+
+  {/* Imagem - O items-center no pai já fará a centralização da imagem,
+      mas mantemos o max-w-xl para limitar sua largura. */}
+{/* Imagem - REMOVIDO o max-w-xl para permitir que ela ocupe mais largura */}
+  <img
+    src={ImagemEconomiaCircular}
+    alt="Economia Circular"
+    className="w-10/12 rounded-xl"
+  />
+
+</div>
+
+
+{/* Nova Seção: Veja onde doar perto de você no nosso Aplicativo! */}
+<div className="max-w-7xl mx-auto mt-16 p-8">
+  <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0 md:space-x-12">
+    
+    {/* Coluna da Esquerda: Textos */}
+    <div className="md:w-1/2 space-y-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-padraoVerdeEscuro">
+        Veja onde doar perto de você no nosso Aplicativo!
+      </h2>
+      
+      <p className="text-black text-lg">
+        Com nosso app você consegue fazer tudo isso. Com o Descarte Certo fica mais fácil cuidar do planeta!
+      </p>
+      
+      <p className="text-black text-lg">
+        Conheça nosso app e descubra os pontos de doação mais próximos de você. Encontre doações ou pessoas que precisam
+      </p>
+      
+      <p className="text-black text-lg">
+        Nosso aplicativo tem o objetivo de facilitar o descarte correto e incentivar a solidariedade.
       </p>
 
-      <div className="doacoes-qrcode-box">
-        <p className="doacoes-paragrafo">Veja onde doar perto de você no aplicativo!</p>
-        <img src="/qrcode.png" alt="QR Code" className="doacoes-qrcode" />
-        <img src="/googleplay.png" alt="Google Play" className="doacoes-googleplay" />
-      </div>
+      <p className="text-black text-lg font-bold">
+        É rápido, simples e gratuito !
+      </p>
+    </div>
+
+    {/* Coluna da Direita: QR Code e Google Play */}
+    <div className="flex flex-col items-center justify-center space-y-4 md:w-1/3">
+      {/* O QR Code aqui é uma imagem estática que você precisará ter em seu projeto */}
+      <img 
+        src={qrcode} 
+        alt="QR Code do Aplicativo" 
+        className="w-full max-w-xs h-auto"
+      />
+      {/* O botão Google Play */}
+      <img
+        src={googleplay}
+        alt="Disponível no Google Play"
+        className="max-w-[150px] h-auto" 
+      />
+    </div>
+
+  </div>
+</div>
+
+
 
     </section>
   );
