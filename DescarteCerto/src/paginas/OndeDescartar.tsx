@@ -144,15 +144,15 @@ export default function OndeDescartar() {
     {/* Coluna da Esquerda: Textos */}
     <div className="md:w-1/2 space-y-6">
       <h2 className="text-3xl md:text-4xl font-fredoka font-bold text-padraoVerdeEscuro">
-        Veja onde doar perto de você no nosso Aplicativo!
+        Descubra os pontos de coleta desses materiais próximos de você no nosso Aplicativo!
       </h2>
       
       <p className="text-black font-fredoka text-lg">
-        Com nosso app você consegue fazer tudo isso. Com o Descarte Certo fica mais fácil cuidar do planeta!
+        Com nosso aplicativo fica mais fácil cuidar do planeta!
       </p>
       
       <p className="text-black font-fredoka text-lg">
-        Conheça nosso app e descubra os pontos de doação mais próximos de você. Encontre doações ou pessoas que precisam
+        Conheça nosso app e descubra os pontos de coleta mais próximos de você.
       </p>
       
       <p className="text-black font-fredoka text-lg">
