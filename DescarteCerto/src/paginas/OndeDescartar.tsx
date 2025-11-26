@@ -31,17 +31,17 @@ function Card({ imagem, titulo, texto, corFundo = "bg-[#A9D18E]" }: CardProps) {
         <img 
           src={imagem} 
           alt={titulo}
-          className="w-full h-full object-contain" 
+          className="w-full h-full font-fredoka object-contain" 
         />
       </div>
 
       {/* Título com fonte Serifada */}
-      <h3 className="text-2xl font-serif font-bold text-[#2c3e26] mb-4 leading-tight">
+      <h3 className="text-2xl font-fredoka font-bold text-padraoVerdeEscuro mb-4 leading-tight">
         {titulo}
       </h3>
 
       {/* Texto descritivo */}
-      <p className="text-[#1a2018] text-[0.95rem] leading-relaxed font-medium">
+      <p className="text-black text-[0.95rem] leading-relaxed font-fredoka">
         {texto}
       </p>
     </div>
@@ -54,55 +54,55 @@ const cardsData = [
     titulo: "Pilhas e baterias",
     texto: "Na sua composição contém metais pesados, que contaminam o solo e a água. Devem ser descartados em pontos de coleta específicos.",
     imagem: Pilhas, 
-    corFundo: "bg-[#A9D18E]" // Verde
+    corFundo: "bg-[#A9D091]" // Verde
   },
   {
     titulo: "Medicamentos",
     texto: "Devem ser descartados em farmácias com coletas específicas. Nunca no lixo comum ou vaso sanitário.",
     imagem: Medicamentos, // Substitua por Medicamentos
-    corFundo: "bg-[#D2B48C]" // Bege
+    corFundo: "bg-[#CFBB9A]" // Bege
   },
   {
     titulo: "Óleo de cozinha",
     texto: "Nunca deve despejar o óleo usado na pia. Armazene em garrafas plásticas e entregue em pontos de coleta.",
     imagem: Oleo, // Substitua por Oleo
-    corFundo: "bg-[#A9D18E]" // Verde
+    corFundo: "bg-[#A9D091]" // Verde
   },
   {
     titulo: "Eletroeletrônicos",
     texto: "Contêm materiais tóxicos. Devem ser levados em ecopontos ou campanhas de coleta tecnológica.",
     imagem: Eletro, // Substitua por Eletro
-    corFundo: "bg-[#D2B48C]" // Bege
+    corFundo: "bg-[#CFBB9A]" // Bege
   },
   {
     titulo: "Lâmpadas",
     texto: "Contêm mercúrio. Leve em lojas especializadas e nunca quebre ou jogue no lixo comum.",
     imagem: Lampadas, // Substitua por Lampadas
-    corFundo: "bg-[#A9D18E]" // Verde
+    corFundo: "bg-[#A9D091]" // Verde
   },
   {
     titulo: "Embalagens de agrotóxicos",
     texto: "Os vestígios podem fazer mal. As embalagens devem ser lavadas e levadas aos lugares indicados.",
     imagem: Agrotoxicos, // Substitua por Agrotoxicos
-    corFundo: "bg-[#D2B48C]" // Bege
+    corFundo: "bg-[#CFBB9A]" // Bege
   },
   {
     titulo: "Móveis e estofados",
     texto: "Se não for possível doar, solicite a coleta agendada da prefeitura ou leve a um ecoponto.",
     imagem: Moveis, // Substitua por Moveis
-    corFundo: "bg-[#A9D18E]" // Verde
+    corFundo: "bg-[#A9D091]" // Verde
   },
   {
     titulo: "Calçados e roupas",
     texto: "Se estiverem em bom estado, doe. Caso contrário, descarte em pontos de coleta têxteis.",
     imagem: Roupas, // Substitua por Roupas
-    corFundo: "bg-[#D2B48C]" // Bege
+    corFundo: "bg-[#CFBB9A]" // Bege
   },
   {
     titulo: "Produtos de limpeza",
     texto: "Por conter químicos, as embalagens vazias devem ser descartadas corretamente nos lixos recicláveis.",
     imagem: Limpeza, // Substitua por Limpeza
-    corFundo: "bg-[#A9D18E]" // Verde
+    corFundo: "bg-[#A9D091]" // Verde
   },
 ];
 
@@ -113,10 +113,10 @@ export default function OndeDescartar() {
       
       {/* Header */}
       <section className="max-w-5xl w-full mt-12 px-6 mb-10">
-        <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-gray-800">
+        <h1 className="text-3xl md:text-4xl font-fredoka font-bold mb-6 text-padraoVerdeEscuro">
           Você sabe onde jogar isso?
         </h1>
-        <p className="text-lg text-gray-600 leading-relaxed text-justify">
+        <p className="text-lg text-black leading-relaxed font-fredoka text-justify">
           Nem todo resíduo pode ser jogado no lixo comum ou na reciclagem. Alguns merecem uma atenção especial, como pilhas, medicamentos, produtos hospitalares e agrotóxicos. Quando descartados de forma incorreta, esses materiais podem causar sérios danos ao meio ambiente e à saúde dos moradores da região.
           <br /><br />
           Veja como descartar corretamente esses itens e conheça, no nosso aplicativo, os pontos de coleta de lixo especial mais próximos de você. Vamos juntos contribuir para uma cidade mais limpa e segura!
@@ -143,23 +143,23 @@ export default function OndeDescartar() {
     
     {/* Coluna da Esquerda: Textos */}
     <div className="md:w-1/2 space-y-6">
-      <h2 className="text-3xl md:text-4xl font-bold text-padraoVerdeEscuro">
+      <h2 className="text-3xl md:text-4xl font-fredoka font-bold text-padraoVerdeEscuro">
         Veja onde doar perto de você no nosso Aplicativo!
       </h2>
       
-      <p className="text-black text-lg">
+      <p className="text-black font-fredoka text-lg">
         Com nosso app você consegue fazer tudo isso. Com o Descarte Certo fica mais fácil cuidar do planeta!
       </p>
       
-      <p className="text-black text-lg">
+      <p className="text-black font-fredoka text-lg">
         Conheça nosso app e descubra os pontos de doação mais próximos de você. Encontre doações ou pessoas que precisam
       </p>
       
-      <p className="text-black text-lg">
+      <p className="text-black font-fredoka text-lg">
         Nosso aplicativo tem o objetivo de facilitar o descarte correto e incentivar a solidariedade.
       </p>
 
-      <p className="text-black text-lg font-bold">
+      <p className="text-black  text-lg font-fredoka font-bold">
         É rápido, simples e gratuito !
       </p>
     </div>

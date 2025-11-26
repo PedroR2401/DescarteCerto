@@ -6,51 +6,51 @@
 .PrimeiroSection { @apply flex justify-center ; }
 .PrimeiroTexto { @apply flex-1 text-center text-[20px] md:text-left space-y-4; }
 .PrimeiroBox { @apply p-6 md:p-10 max-w-5xl w-full;}
-.PrimeiroTitulo { @apply text-3xl md:text-3xl font-bold text-padraoVerdeEscuro; }
-.PrimeiroDescricao { @apply text-black text-justify text-xl leading-relaxed; }
+.PrimeiroTitulo { @apply text-3xl md:text-3xl font-fredoka font-bold text-padraoVerdeEscuro; }
+.PrimeiroDescricao { @apply text-black text-justify  font-fredoka text-xl leading-relaxed; }
 .PrimeiroLogo {  @apply float-right w-60 md:w-[200px] h-60 md:h-[200px] ml-6 mb-2 relative -top-9; }
 .PrimeiroLogoImg {@apply w-full h-auto; }
 
 /* Bloco Destacado */
 .BlocoDestacado { @apply bg-fundoBlocoMarrom rounded-2xl shadow-md px-5 py-7 text-center md:text-left w-full; }
-.BlocoTitulo { @apply text-4xl md:text-4xl text-center font-bold text-padraoVerdeEscuro mb-7; }
-.BlocoTexto { @apply text-black text-justify text-xl leading-relaxed; }
+.BlocoTitulo { @apply text-4xl md:text-4xl text-center font-fredoka font-bold text-padraoVerdeEscuro mb-7; }
+.BlocoTexto { @apply text-black text-justify font-fredoka text-xl leading-relaxed; }
 
 /* Texto + Imagem */
 .TextoImagem { @apply flex flex-col-reverse md:flex-row items-center justify-between gap-8 w-full; }
 .TextoImagemImg { @apply flex-1 flex justify-items-start; }
 .TextoImagemFoto { @apply w-80 md:w-[400px]; }
-.TextoImagemTexto { @apply flex-1 text-justify md:text-left space-y-4; }
-.TextoImagemTitulo { @apply text-4xl md:text-3xl font-bold text-padraoVerdeEscuro; }
-.TextoImagemDescricao { @apply text-black text-2xl text-justify leading-relaxed; }
+.TextoImagemTexto { @apply flex-1 text-justify font-fredoka md:text-left space-y-4; }
+.TextoImagemTitulo { @apply text-4xl md:text-3xl font-fredoka font-bold text-padraoVerdeEscuro; }
+.TextoImagemDescricao { @apply text-black text-2xl font-fredoka text-justify leading-relaxed; }
 
 /* Benefícios */
 .Beneficios { @apply px-6 md:px-16 lg:px-32 py-2; }
-.BeneficiosTitulo { @apply text-2xl md:text-3xl font-bold text-center text-padraoVerdeEscuro mb-10; }
+.BeneficiosTitulo { @apply text-2xl md:text-3xl font-fredoka font-bold text-center text-padraoVerdeEscuro mb-10; }
 .BeneficiosGrid { @apply grid grid-cols-1 md:grid-cols-3 gap-20; }
 .BeneficioItem { @apply p-6 bg-padraoVerdeClaro rounded-2xl shadow text-center min-w-[280px]; }
 .BeneficioIcone { @apply  w-60 h-60 mx-auto mb-6 object-cover rounded-2xl;}
-.BeneficioTitulo { @apply font-bold text-2xl text-padraoVerdeEscuro mb-4; }
-.BeneficioTexto { @apply text-black text-lg; }
+.BeneficioTitulo { @apply font-bold text-2xl font-fredoka text-padraoVerdeEscuro mb-4; }
+.BeneficioTexto { @apply text-black font-fredoka text-lg; }
 
 /* Tipos de Lixo */
 .TiposLixo { @apply flex justify-center; }
-.TiposLixoTitulo { @apply text-2xl md:text-3xl font-bold text-center text-padraoVerdeEscuro mb-6; }
-.TiposLixoTexto { @apply text-black text-2xl  text-justify mb-6; }
+.TiposLixoTitulo { @apply text-2xl md:text-3xl font-fredoka font-bold text-center text-padraoVerdeEscuro mb-6; }
+.TiposLixoTexto { @apply text-black text-2xl font-fredoka text-justify mb-6; }
 .TiposLixoImg { @apply flex justify-center; }
 .TiposLixoFoto { @apply w-full max-w-5xl; }
 
 /* O que NÃO vai na coleta seletiva */
 .NaoColeta { @apply px-6 md:px-16 ; }
-.NaoColetaTitulo { @apply text-2xl md:text-3xl font-bold text-center text-padraoVerdeEscuro mb-12; }
+.NaoColetaTitulo { @apply text-2xl md:text-3xl font-bold font-fredoka text-center text-padraoVerdeEscuro mb-12; }
 .NaoColetaGrid { @apply flex flex-col md:flex-row items-start }
 .NaoColetaImg { @apply flex justify-center w-full md:w-4/6; }
 .NaoColetaFoto { @apply w-96 md:w-5/6; }
-.NaoColetaTexto { @apply w-full text-xl text-justify md:w-[700px] leading-relaxed text-black space-y-3; }
-.Negrito{ @apply font-bold}
+.NaoColetaTexto { @apply w-full text-xl font-fredoka text-justify md:w-[700px] leading-relaxed text-black space-y-3; }
+.Negrito{ @apply font-fredoka font-bold}
 
 /* Descarte Consciente */
 .DescarteConsciente { @apply px-6 md:px-16 lg:px-32 py-16; }
 .DescarteBox { @apply bg-padraoVerdeClaro rounded-2xl shadow-md p-6 md:p-10 text-center md:text-left; }
-.DescarteTitulo { @apply text-xl md:text-2xl font-bold text-center text-padraoVerdeEscuro mb-4; }
-.DescarteTexto { @apply text-black text-lg leading-relaxed; }
+.DescarteTitulo { @apply text-xl md:text-2xl font-fredoka font-bold text-center text-padraoVerdeEscuro mb-4; }
+.DescarteTexto { @apply text-black text-lg font-fredoka leading-relaxed; }

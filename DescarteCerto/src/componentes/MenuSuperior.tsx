@@ -8,7 +8,7 @@ function Header() {
     <header id="topo" className="Header">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <img src={logoEnome} alt="Descarte Certo" className="h-18 sm:h-18 md:h-14 w-auto ml-28" />
+        <img src={logoEnome} alt="Descarte Certo" className="h-12 sm:h-14 w-autoh-10 sm:h-12 md:h-14 w-auto flex-shrink-0" />
       </div>
 
       {/* Menu */}

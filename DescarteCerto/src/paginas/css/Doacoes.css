@@ -13,15 +13,15 @@
 }
 
 .doacoes-hero-titulo {
-  @apply text-2xl md:text-3xl font-fredoka text-padraoVerdeEscuro text-justify mb-20;
+  @apply text-2xl md:text-3xl font-fredoka font-bold text-padraoVerdeEscuro text-justify mb-20;
 }
 
 .doacoes-hero-subtitulo {
-  @apply text-2xl md:text-2xl font-fredoka text-padraoVerdeEscuro;
+  @apply text-2xl md:text-2xl font-fredoka font-semibold text-padraoVerdeEscuro;
 }
 
 .doacoes-hero-paragrafo {
-  @apply text-black text-xl leading-relaxed max-w-xl;
+  @apply text-black text-xl font-fredoka leading-relaxed max-w-xl;
 }
 
 .doacoes-hero-imagem {
@@ -37,28 +37,24 @@
   @apply bg-padraoVerdeClaro p-6 rounded-2xl space-y-3;
 }
 
-/* IMAGEM LATERAL */
 .doacoes-card-img-lateral {
   @apply w-40 h-40 ;
 }
 
-/* TÍTULOS */
 .doacoes-card-titulo {
-  @apply text-2xl md:text-3xl font-fredoka text-padraoVerdeEscuro;
+  @apply text-2xl md:text-3xl font-fredoka font-bold text-padraoVerdeEscuro;
 }
 
-/* TEXTO */
 .doacoes-card-texto {
-  @apply text-gray-700 text-lg md:text-xl leading-relaxed text-justify;
+  @apply text-black text-lg font-fredoka md:text-xl leading-relaxed text-justify;
 }
 
 .doacoes-card-titulo2 {
-  @apply text-2xl text-start md:text-3xl font-fredoka text-padraoVerdeEscuro;
+  @apply text-2xl text-start md:text-3xl font-fredoka font-bold text-padraoVerdeEscuro;
 }
 
-/* TEXTO */
 .doacoes-card-texto2 {
-  @apply text-gray-700 text-lg md:text-xl leading-relaxed text-justify;
+  @apply text-black text-lg md:text-xl leading-relaxed font-fredoka text-justify;
 }
 
 
@@ -75,11 +71,11 @@
 }
 
 .doacoes-card-titulo-item {
-  @apply text-2xl font-semibold text-justify text-padraoVerdeEscuro;
+  @apply text-2xl font-fredoka text-justify font-bold text-padraoVerdeEscuro;
 }
 
 .doacoes-card-paragrafo {
-  @apply text-gray-600 text-base;
+  @apply text-black font-fredoka text-base;
 }
 
 /* {O que não deve ser doado} */
@@ -93,15 +89,15 @@
 }
 
 .doacoes-hero-titulo2 {
-  @apply text-3xl md:text-4xl font-fredoka text-padraoVerdeEscuro text-justify mb-14;
+  @apply text-3xl md:text-4xl font-fredoka font-bold text-padraoVerdeEscuro text-justify mb-14;
 }
 
 .doacoes-hero-subtitulo2 {
-  @apply text-2xl md:text-2xl font-fredoka text-padraoVerdeEscuro;
+  @apply text-2xl md:text-2xl font-fredoka font-semibold text-padraoVerdeEscuro;
 }
 
 .doacoes-hero-paragrafo2 {
-  @apply text-black text-2xl leading-relaxed max-w-xl;
+  @apply text-black text-2xl font-fredoka leading-relaxed max-w-xl;
 }
 
 .doacoes-hero-imagem2 {

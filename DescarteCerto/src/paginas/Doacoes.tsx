@@ -172,12 +172,12 @@ export default function Doacoes() {
 <div className="max-w-7xl mx-auto mt-10 flex flex-col space-y-8 items-center">
 
   {/* Título - Já está centralizado */}
-  <h2 className="text-2xl md:text-3xl font-fredoka text-padraoVerdeEscuro text-center mb-5">
+  <h2 className="text-2xl md:text-3xl font-fredoka font-bold text-padraoVerdeEscuro text-center mb-5">
     Doe em família
   </h2>
 
   {/* Texto - Adicionado mx-auto para centralizar o bloco de texto */}
-  <p className="text-black md:text-2xl leading-relaxed text-justify max-w-7xl mx-auto">
+  <p className="text-black md:text-2xl leading-relaxed font-fredoka text-justify max-w-7xl mx-auto">
     Doar em família é uma ótima maneira de fortalecer laços e incentivar atitudes solidárias.
     Explique a importância da doação para que todos compreendam o impacto positivo desse gesto.
     Organizar um momento para selecionar itens juntos pode tornar a experiência mais envolvente,
@@ -185,9 +185,7 @@ export default function Doacoes() {
     de quem já recebeu doações também pode motivar e mostrar que pequenas ações fazem a diferença.
   </p>
 
-  {/* Imagem - O items-center no pai já fará a centralização da imagem,
-      mas mantemos o max-w-xl para limitar sua largura. */}
-{/* Imagem - REMOVIDO o max-w-xl para permitir que ela ocupe mais largura */}
+
   <img
     src={ImagemEconomiaCircular}
     alt="Economia Circular"
@@ -203,19 +201,19 @@ export default function Doacoes() {
     
     {/* Coluna da Esquerda: Textos */}
     <div className="md:w-1/2 space-y-6">
-      <h2 className="text-3xl md:text-4xl font-fredoka text-padraoVerdeEscuro">
+      <h2 className="text-3xl md:text-4xl font-fredoka font-bold text-padraoVerdeEscuro">
         Veja onde doar perto de você no nosso Aplicativo!
       </h2>
       
-      <p className="text-black text-lg">
+      <p className="text-black font-fredoka text-lg">
         Com nosso app você consegue fazer tudo isso. Com o Descarte Certo fica mais fácil cuidar do planeta!
       </p>
       
-      <p className="text-black text-lg">
+      <p className="text-black font-fredoka text-lg">
         Conheça nosso app e descubra os pontos de doação mais próximos de você. Encontre doações ou pessoas que precisam
       </p>
       
-      <p className="text-black text-lg">
+      <p className="text-black font-fredoka text-lg">
         Nosso aplicativo tem o objetivo de facilitar o descarte correto e incentivar a solidariedade.
       </p>
 
@@ -230,13 +228,13 @@ export default function Doacoes() {
       <img 
         src={qrcode} 
         alt="QR Code do Aplicativo" 
-        className="w-full max-w-xs h-auto"
+        className="w-full font-fredoka max-w-xs h-auto"
       />
       {/* O botão Google Play */}
       <img
         src={googleplay}
         alt="Disponível no Google Play"
-        className="max-w-[150px] h-auto" 
+        className="max-w-[150px] font-fredoka h-auto" 
       />
     </div>
 
@@ -262,9 +260,9 @@ interface CardProps {
     <div className={`${corFundo} rounded-2xl shadow-md p-11 flex flex-col items-center text-center w-72`}>
       <img src={imagem} className="w-48 h-36 object-contain mb-4 rounded-2xl" />
 
-      <h3 className="text-xl font-fredoka text-padraoVerdeEscuro mb-2">{titulo}</h3>
+      <h3 className="text-xl font-fredoka font-semibold text-padraoVerdeEscuro mb-2">{titulo}</h3>
 
-      <p className="text-black text-base leading-relaxed px-3">
+      <p className="text-black font-fredoka text-base leading-relaxed px-3">
         {texto}
       </p>
     </div>
