@@ -35,7 +35,7 @@ export default function Dicas() {
   ></iframe>
 </div>
       <p className="sust-paragrafo">
-        Vamos aprender com a Bee da Casa de Manual do Mundo uma forma de reciclar
+        Vamos aprender com a Bee da Casa do Manual do Mundo uma forma de reciclar
         óleo de cozinha! Com o óleo a mais girando nas engrenagens do consumo,
         podemos dar um destino útil transformando-o em sabão para usar no dia a dia.
       </p>

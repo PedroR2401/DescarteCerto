@@ -52,7 +52,7 @@ export default function Doacoes() {
 <div className="doacoes-card-grande-flex">
 
   {/* PARTE DE CIMA → imagem + texto */}
-  <div className="flex gap-6">
+  <div className="flex flex-col sm:flex-row gap-6">
     <img src={Atencao} className="doacoes-card-img-lateral" />
 
     <div className="space-y-4">
