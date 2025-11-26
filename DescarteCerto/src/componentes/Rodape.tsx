@@ -3,6 +3,8 @@ import emailIcon from "../images/envelope.png";
 import "./estilizacao/rodape.css";
 import facebookIcon from "../images/facebookIcon.png";
 import xIcon from "../images/xIcon.png";
+import { NavLink } from "react-router-dom"; 
+
 function Footer() {
   return (
     <footer className="Footer">
@@ -26,11 +28,47 @@ function Footer() {
         <div className="div_BlocoVerde">
           <h3 className="h3_PaginaSite">Páginas do Site</h3>
           <ul className="ul_PaginaSite">
-            <li><a href="#" className="a_PaginaSite">Home</a></li>
-            <li><a href="#" className="a_PaginaSite">Onde Descartar</a></li>
-            <li><a href="#" className="a_PaginaSite">Doações</a></li>
-            <li><a href="#" className="a_PaginaSite">Dicas</a></li>
-            <li><a href="#" className="a_PaginaSite">Aplicativo</a></li>
+
+ {/* Menu */}
+      <nav>
+          
+          {/* USANDO NavLink */}
+          <NavLink 
+            to="/" 
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Home</li>
+          </NavLink>
+
+          <NavLink 
+            to="/OndeDescartar"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Onde descartar</li>
+          </NavLink>
+
+          <NavLink 
+            to="/Doacoes"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Doações</li>
+          </NavLink>
+
+          <NavLink 
+            to="/Dicas"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Dicas</li>
+          </NavLink>
+
+          <NavLink 
+            to="/Aplicativo"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Aplicativo</li>
+          </NavLink>
+      </nav>
+            
           </ul>
         </div>
 

@@ -1,10 +1,9 @@
-import logoEnome from "../images/logoEnome.png"; // Coloque sua imagem na pasta assets
+import logoEnome from "../images/logoEnome.png";
 import "./estilizacao/MenuSuperior.css";
-import { Link } from "react-router-dom";
+// IMPORTANTE: Mudar de 'Link' para 'NavLink'
+import { NavLink } from "react-router-dom"; 
 
 function Header() {
-  // const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <header id="topo" className="Header">
       {/* Logo */}
@@ -15,26 +14,43 @@ function Header() {
       {/* Menu */}
       <nav>
         <ul className="ListaMenu">
+          
+          {/* USANDO NavLink */}
+          <NavLink 
+            to="/" 
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Home</li>
+          </NavLink>
 
-          <Link to="/">
-            <li className="Menu">Home</li>
-          </Link>
+          <NavLink 
+            to="/OndeDescartar"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Onde descartar</li>
+          </NavLink>
 
-          <Link to="/OndeDescartar">
-            <li className="Menu">Onde descartar</li>
-          </Link>
+          <NavLink 
+            to="/Doacoes"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Doações</li>
+          </NavLink>
 
-          <Link to="/Doacoes">
-          <li className="Menu">Doações</li>
-          </Link>
+          <NavLink 
+            to="/Dicas"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Dicas</li>
+          </NavLink>
 
-          <Link to="/Dicas">
-          <li className="Menu">Dicas</li>
-          </Link>
+          <NavLink 
+            to="/Aplicativo"
+            className={({ isActive }) => isActive ? "Menu active-link" : "Menu"}
+          >
+            <li>Aplicativo</li>
+          </NavLink>
 
-          <Link to="/Aplicativo">
-          <li className="Menu">Aplicativo</li>
-          </Link>
         </ul>
       </nav>
     </header>

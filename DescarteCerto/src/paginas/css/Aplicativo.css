@@ -9,15 +9,15 @@
 }
 
 .appinfo-texto {
-  @apply max-w-xl text-black text-left space-y-4;
+  @apply max-w-xl text-black font-fredoka text-left space-y-4;
 }
 
 .appinfo-titulo {
-  @apply text-3xl font-bold text-padraoVerdeEscuro mb-2;
+  @apply text-3xl font-fredoka text-padraoVerdeEscuro mb-2;
 }
 
 .appinfo-paragrafo {
-  @apply text-black text-xl leading-relaxed;
+  @apply text-black text-xl font-fredoka leading-relaxed;
 }
 
 .appinfo-img {
@@ -35,7 +35,7 @@
 }
 
 .appinfo-subtitulo {
-  @apply text-4xl font-bold text-padraoVerdeEscuro;
+  @apply text-4xl font-fredoka text-padraoVerdeEscuro;
 }
 
 .appinfo-qrcode {

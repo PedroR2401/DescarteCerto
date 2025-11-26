@@ -172,7 +172,7 @@ export default function Doacoes() {
 <div className="max-w-7xl mx-auto mt-10 flex flex-col space-y-8 items-center">
 
   {/* Título - Já está centralizado */}
-  <h2 className="text-2xl md:text-3xl font-bold text-padraoVerdeEscuro text-center mb-5">
+  <h2 className="text-2xl md:text-3xl font-fredoka text-padraoVerdeEscuro text-center mb-5">
     Doe em família
   </h2>
 
@@ -203,7 +203,7 @@ export default function Doacoes() {
     
     {/* Coluna da Esquerda: Textos */}
     <div className="md:w-1/2 space-y-6">
-      <h2 className="text-3xl md:text-4xl font-bold text-padraoVerdeEscuro">
+      <h2 className="text-3xl md:text-4xl font-fredoka text-padraoVerdeEscuro">
         Veja onde doar perto de você no nosso Aplicativo!
       </h2>
       
@@ -219,7 +219,7 @@ export default function Doacoes() {
         Nosso aplicativo tem o objetivo de facilitar o descarte correto e incentivar a solidariedade.
       </p>
 
-      <p className="text-black text-lg font-bold">
+      <p className="text-black text-lg font-fredoka">
         É rápido, simples e gratuito !
       </p>
     </div>
@@ -262,7 +262,7 @@ interface CardProps {
     <div className={`${corFundo} rounded-2xl shadow-md p-11 flex flex-col items-center text-center w-72`}>
       <img src={imagem} className="w-48 h-36 object-contain mb-4 rounded-2xl" />
 
-      <h3 className="text-xl font-bold text-padraoVerdeEscuro mb-2">{titulo}</h3>
+      <h3 className="text-xl font-fredoka text-padraoVerdeEscuro mb-2">{titulo}</h3>
 
       <p className="text-black text-base leading-relaxed px-3">
         {texto}

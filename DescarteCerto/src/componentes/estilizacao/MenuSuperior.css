@@ -1,9 +1,23 @@
-.Menu{
-@apply hover:border-b-2 hover:border-branco cursor-pointer
-}
+/* Seu código existente */
+
+/* 1. Ajuste no Header para garantir que o texto seja branco */
 .Header{
+    /* MANTENHA text-branco aqui para os links ficarem brancos por padrão */
    @apply w-screen bg-padraoVerdeClaro text-branco flex items-center justify-between px-4 sm:px-6 py-3 shadow-md
 }
+
+/* 2. Classe .Menu: Adicione a cor branca (se já não estiver vindo do .Header) */
+.Menu{
+    /* Certifica que o texto não mude de cor ao passar o mouse, apenas adicione a borda. */
+    @apply hover:border-b-2 hover:border-branco cursor-pointer text-branco; 
+}
+
+/* 3. NOVA CLASSE: Estilo do Link Ativo */
+/* Aplica a borda branca no link que corresponde à página atual */
+.active-link {
+    @apply border-b-2 border-branco;
+}
+
 .ListaMenu{
-   @apply flex space-x-6 font-medium mr-28
+    @apply flex space-x-6 font-medium mr-28
 }

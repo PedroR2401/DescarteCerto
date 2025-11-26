@@ -35,7 +35,7 @@
   @apply text-padraoVerdeEscuro font-fredoka font-semibold mb-1 text-center text-[20px];
 }
 
-.ul_PaginaSite {
+.active-link {
   @apply space-y-1 text-left;
 }
 

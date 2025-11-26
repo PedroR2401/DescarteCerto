@@ -186,15 +186,16 @@ export default function OndeDescartar() {
       {/* Descarte Consciente */}
       <section id="descarte-consciente" className="DescarteConsciente">
         <div className="DescarteBox">
-          <h2 className="DescarteTitulo">Descarte Consciente: Onde Vai Seu Lixo?</h2>
+          <h2 className="DescarteTitulo">Mas tudo REALMENTE precisa ser descartado?</h2>
           <p className="DescarteTexto">
-            O lixo simplesmente não “desaparece” quando descartado de forma incorreta, muitas 
-            vezes ele acaba poluindo as ruas, entupindo bueiros, contaminando o solo e 
-            prejudicando o meio ambiente. Tanto objetos do dia a dia menores como sacolas e 
-            garrafas plásticas, quanto objetos maiores como móveis e eletrodomésticos, devem 
-            ter sua devida atenção. Afinal, cada ação conta, quando você descarta corretamente 
-            você contribui para uma cidade mais limpa, ajuda a preservar o meio ambiente, e 
-            ainda pode ajudar outras pessoas por meio da doação. 
+           Móveis, roupas e objetos em bom estado podem ganhar um novo destino! <br></br><br></br>
+
+Com o Descarte Certo, você também pode:<br></br>
+• Anunciar doações de itens que não usa mais.<br></br>
+• Encontrar pessoas ou instituições que estão precisando exatamente do que você tem.<br></br>
+• Evitar o descarte desnecessário e ajudar quem precisa.<br></br><br></br>
+
+Transforme o que iria para o lixo em uma nova oportunidade para alguém! 
           </p>
         </div>
       </section>
