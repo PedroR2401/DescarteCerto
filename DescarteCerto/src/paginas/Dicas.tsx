@@ -54,7 +54,7 @@ export default function Dicas() {
  </div>
       <p className="sust-paragrafo">
         Podemos reciclar sacolas plásticas de supermercado assim como o plástico do
-        Thacopy: podemos cortar uma carteira com elas e reutilizar de forma criativa.
+        Thaccyo: podemos cortar uma carteira com elas e reutilizar de forma criativa.
         É uma alternativa ótima para dar novo uso aos materiais antes de descartá-los!
       </p>
 
