@@ -5,12 +5,12 @@
 
 /* TÍTULO PRINCIPAL */
 .sust-titulo {
-  @apply text-3xl md:text-4xl font-fredoka items-start text-padraoVerdeEscuro mb-4 text-justify;
+  @apply text-3xl md:text-4xl font-fredoka font-bold items-start text-padraoVerdeEscuro mb-4 text-justify;
 }
 
 /* SUBTÍTULOS */
 .sust-subtitulo {
-  @apply text-3xl md:text-3xl font-fredoka text-padraoVerdeEscuro mt-10 mb-4 text-center;
+  @apply text-3xl md:text-3xl font-fredoka font-semibold text-padraoVerdeEscuro mt-10 mb-4 text-center;
 }
 
 /* PARÁGRAFOS */
