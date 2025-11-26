@@ -7,9 +7,11 @@ import Oleo from "../images/oleo.png";
 import Eletro from "../images/eletroeletronicos.png";
 import Lampadas from "../images/lampadas.png";
 import Agrotoxicos from "../images/agrotoxicos.png";
-import Moveis from "../images/moveis.png";
+import Moveis from "../images/moveis.jpg";
 import Roupas from "../images/roupas.png";
-import Limpeza from "../images/DiferencaLixos.png";
+import Limpeza from "../images/produtos.png";
+import qrcode from "../images/qrcode.png"
+import googleplay from "../images/googleplay.png"
 
 // --- 1. Definição do Componente Card ---
 interface CardProps {
@@ -135,12 +137,68 @@ export default function OndeDescartar() {
       </section>
 
       {/* Footer / Info */}
-      <section className="bg-green-100 w-full text-center py-12 mt-20">
-        <h2 className="text-2xl font-bold text-green-800">Pontos de coleta perto de você</h2>
-        <p className="text-lg text-gray-700 mt-2">
-          Use nosso aplicativo para encontrar o ponto de descarte mais próximo.
-        </p>
+{/* Nova Seção: Veja onde doar perto de você no nosso Aplicativo! */}
+<div className="max-w-7xl mx-auto mt-16 p-8">
+  <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0 md:space-x-12">
+    
+    {/* Coluna da Esquerda: Textos */}
+    <div className="md:w-1/2 space-y-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-padraoVerdeEscuro">
+        Veja onde doar perto de você no nosso Aplicativo!
+      </h2>
+      
+      <p className="text-black text-lg">
+        Com nosso app você consegue fazer tudo isso. Com o Descarte Certo fica mais fácil cuidar do planeta!
+      </p>
+      
+      <p className="text-black text-lg">
+        Conheça nosso app e descubra os pontos de doação mais próximos de você. Encontre doações ou pessoas que precisam
+      </p>
+      
+      <p className="text-black text-lg">
+        Nosso aplicativo tem o objetivo de facilitar o descarte correto e incentivar a solidariedade.
+      </p>
+
+      <p className="text-black text-lg font-bold">
+        É rápido, simples e gratuito !
+      </p>
+    </div>
+
+    {/* Coluna da Direita: QR Code e Google Play */}
+    <div className="flex flex-col items-center justify-center space-y-4 md:w-1/3">
+      {/* O QR Code aqui é uma imagem estática que você precisará ter em seu projeto */}
+      <img 
+        src={qrcode} 
+        alt="QR Code do Aplicativo" 
+        className="w-full max-w-xs h-auto"
+      />
+      {/* O botão Google Play */}
+      <img
+        src={googleplay}
+        alt="Disponível no Google Play"
+        className="max-w-[150px] h-auto" 
+      />
+    </div>
+
+  </div>
+</div>
+
+      {/* Descarte Consciente */}
+      <section id="descarte-consciente" className="DescarteConsciente">
+        <div className="DescarteBox">
+          <h2 className="DescarteTitulo">Descarte Consciente: Onde Vai Seu Lixo?</h2>
+          <p className="DescarteTexto">
+            O lixo simplesmente não “desaparece” quando descartado de forma incorreta, muitas 
+            vezes ele acaba poluindo as ruas, entupindo bueiros, contaminando o solo e 
+            prejudicando o meio ambiente. Tanto objetos do dia a dia menores como sacolas e 
+            garrafas plásticas, quanto objetos maiores como móveis e eletrodomésticos, devem 
+            ter sua devida atenção. Afinal, cada ação conta, quando você descarta corretamente 
+            você contribui para uma cidade mais limpa, ajuda a preservar o meio ambiente, e 
+            ainda pode ajudar outras pessoas por meio da doação. 
+          </p>
+        </div>
       </section>
+      
     </div>
   );
 }
